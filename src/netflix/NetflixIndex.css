@@ -1,0 +1,12 @@
+.container-fluid {
+    background-image: url('./netflixback.png');
+    height: 100vmax;
+    background-size: cover;
+    width: 100vmax;
+}
+.box {
+    background-color: rgba(0,0,0,0.6);
+    width: 100vmax;
+    margin-left: -20px;
+    height: 100vmax;
+}

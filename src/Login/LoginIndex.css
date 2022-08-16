@@ -1,0 +1,7 @@
+.img {
+    background-image: url("./background.jpg");
+    /* background-image: url("./login.jpg"); */
+    height: 100vmax;
+    background-size: cover;
+    width: 100vmax;
+}

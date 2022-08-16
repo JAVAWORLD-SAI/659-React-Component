@@ -1,0 +1,6 @@
+.imgage{
+    background-image: url('./warehouseback.jpg');
+     height: 768px;
+     width: 100vmax;
+     background-size: cover;
+}

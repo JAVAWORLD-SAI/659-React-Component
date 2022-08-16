@@ -1,0 +1,16 @@
+main {
+    text-align: center;
+    margin-top: 100px;
+}
+h1, h2 {
+    font-family: Arial;
+    font-weight: bold;
+}
+.register {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.section {
+    height: 300px;
+}
