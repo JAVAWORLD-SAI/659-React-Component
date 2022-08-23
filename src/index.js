@@ -1,30 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css'; 
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { DataBindingNestedList } from './DataBindingNestedList/NestedList';
-import { MenubarOngroup } from './DataBindingNestedList/MenubarOngroup';
-import { Description } from './DataBindingNestedList/Description';
-import { Summary } from './DataBindingNestedList/Summary';
-import { Demo } from './StateConcepts/Demo';
-import { Demo2 } from './StateConcepts/Demo2';
-import { Demo3 } from './StateConcepts/Demo3';
-import { Oneway } from './StateConcepts/onewaybinding state/Oneway';
-import { Twoway } from './StateConcepts/onewaybinding state/Twoway';
+import { ContactIndex } from './Contact/ContactIndex';
+import { NetflixIndex } from './netflix/NetflixIndex';
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <DataBindingNestedList/> */}
-    {/* <MenubarOngroup/> */}
-    {/* <Description/> */}
-    {/* <Summary/> */}
-    {/* <Demo/> */}
-    {/* <Demo2/> */}
-    {/* <Demo3/> */}
-    {/* <Oneway/> */}
-    <Twoway/>
+  <NetflixIndex/>
   </React.StrictMode>
 );
 

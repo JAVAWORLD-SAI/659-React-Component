@@ -1,25 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ 
+ var num=[40,50,80,90,50,60,30];
+ var result=num.filter(num=>
+        num==50|| num||80
   );
-}
-
-export default App;
+  for(var n of num)
+  {
+    document.writeln(n);
+  }

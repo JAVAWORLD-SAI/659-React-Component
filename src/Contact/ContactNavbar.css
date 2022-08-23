@@ -1,0 +1,13 @@
+.menu-items{
+  text-align: right;
+  background-color: burlywood;
+  line-height: 50px;
+}
+.menu-items >a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-right: 15px;
+}
